@@ -52,6 +52,7 @@ User.init(
         return updatedUserData;
       }
     },
+    //pass in our imported sequelize connection
     sequelize,
     timestamps: false,
     freezeTableName: true,
