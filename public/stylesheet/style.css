@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #d9ead3;
+  background-color: lightblue;
 }
 body, html {
   height: 100%;
@@ -24,7 +24,7 @@ a:hover {
 }
 
 button {
-  background-color: #666666;
+  background-color: black;
   border: 0;
   padding: 1%;
   color: white;
@@ -52,7 +52,7 @@ textarea, input {
 
 textarea:focus, input:focus {
   outline: none;
-  border: 1px solid #3486eb;
+  border: 1px solid gray;
 }
 
 textarea {
@@ -82,14 +82,14 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 1%;
-  background-color: #231010;
+  background-color: black;
   color: #d9ead3;
 }
 
 header h1 {
   font-size: 2.8em;
-  color: #231010;
-  background-color: #d9ead3;
+  color: black;
+  background-color: lightblue;
   padding:  10px 25px;
   border-radius: 5px;
   box-shadow:  5px 5px #a7a7a7;
@@ -130,14 +130,14 @@ main {
 .post {
   margin-bottom: 2%;
   line-height: 150%;
-  border: 5px solid #231010;
+  border: 5px solid black;
 }
 .post .title {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #231010;
-  color: #d9ead3;
+  color: lightblue;
   font-size: 1.2em;
   padding: 10px 5px;
 }
@@ -145,7 +145,7 @@ main {
 .post .title span {
   font-style: italic;
   font-size: 70%;
-  color: #7d7d7d;
+  color: lightblue;
 }
 
 .post .content {
